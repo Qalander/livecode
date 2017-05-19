@@ -1,0 +1,46 @@
+.THIS .header{
+	background-color: green;
+}
+
+.THIS .profileMenuRegion{
+}
+
+.THIS .header{
+	width: 100%;
+	height: 70px;
+    padding: 20px 0 20px 0;
+    background-color: green;
+    border-bottom: 2px solid #0578B0;
+}
+
+.THIS .header .headerContent {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.THIS .navigation{
+	padding-left: 5px;
+}
+
+.THIS .forceCommunityNavigationMenu{
+	background: none;
+    border-top: none;
+}
+
+.THIS .logoAndNavigation{
+	flex: 1;
+	order: 1;
+	white-space: nowrap;
+}
+
+.THIS .logoAndNavigation img{
+	height: 30px;
+	float: left;
+}
+
+.THIS .profileMenu {
+    order: 2;
+}
